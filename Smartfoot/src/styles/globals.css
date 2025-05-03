@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Enhanced Text Styles */
+@layer components {
+  .text-gradient {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary/80 to-primary;
+  }
+  
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Global Text Improvements */
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Better Text Contrast */
+.text-base {
+  @apply text-gray-900 dark:text-gray-100;
+}
+
+.text-muted {
+  @apply text-gray-600 dark:text-gray-300;
+}
+
+/* Enhanced Link Styles */
+a {
+  @apply text-primary hover:text-primary/90 transition-colors duration-200;
+}
+
+/* Better Button Text */
+button, .button {
+  @apply font-medium tracking-wide;
+}
+
+/* Improved Headings */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold tracking-tight text-gray-900 dark:text-white;
+}
+
+h1 {
+  @apply text-4xl md:text-5xl lg:text-6xl;
+}
+
+h2 {
+  @apply text-3xl md:text-4xl lg:text-5xl;
+}
+
+h3 {
+  @apply text-2xl md:text-3xl;
+}
+
+/* Enhanced Paragraph Text */
+p {
+  @apply text-gray-700 dark:text-gray-200 leading-relaxed;
+}
+
+/* Card Text */
+.card {
+  @apply bg-white dark:bg-gray-800;
+}
+
+.card-title {
+  @apply text-xl font-semibold text-gray-900 dark:text-white;
+}
+
+.card-content {
+  @apply text-gray-600 dark:text-gray-300;
+}
+
+/* Form Text */
+input, textarea, select {
+  @apply text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400;
+}
+
+/* Navigation Text */
+nav {
+  @apply text-gray-600 dark:text-gray-300;
+}
+
+.nav-active {
+  @apply text-primary font-medium;
+}
+
+/* List Text */
+ul, ol {
+  @apply text-gray-700 dark:text-gray-200;
+}
+
+/* Code Text */
+code {
+  @apply font-mono text-sm bg-gray-100 dark:bg-gray-800 px-1 py-0.5 rounded;
+}
+
+/* Alert Text */
+.alert {
+  @apply font-medium;
+}
+
+.alert-error {
+  @apply text-red-600 dark:text-red-400;
+}
+
+.alert-success {
+  @apply text-green-600 dark:text-green-400;
+}
+
+/* Animation Classes */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out;
+}
+
+.animate-slide-down {
+  animation: slideDown 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} 
