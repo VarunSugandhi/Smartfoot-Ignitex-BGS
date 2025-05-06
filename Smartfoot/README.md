@@ -1,73 +1,63 @@
-# Welcome to your Lovable project
+# 🚶‍♂️ SMARTFOOT — AI-Powered Safe Urban Mobility & Community Platform
 
-## Project info
+> 🌆 A smart web solution to make urban commuting safer, smarter, and more connected.
 
-**URL**: https://lovable.dev/projects/940631bb-ea71-41d7-9207-0c86b22048df
+## 🔥 Submitted To
+**BGSIT - IGNITEX 2025**  
+**Team Name**: Nether Watchers  
+**Track**: Smart Urban Living  
+**Project Title**: SMARTFOOT — AI-Powered Safe Urban Mobility & Community Platform
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🧠 Problem Statement
 
-**Use Lovable**
+Urban commuters face several day-to-day challenges:
+- Navigating unpredictable traffic conditions  
+- Lack of real-time safety check-ins or emergency support during night travel  
+- Difficulty in locating available parking  
+- Missing out on nearby events or shared commute opportunities  
+- Inefficient civic complaint systems  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/940631bb-ea71-41d7-9207-0c86b22048df) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💡 Our Solution — SMARTFOOT
 
-**Use your preferred IDE**
+**SMARTFOOT** is a free-to-use AI-enhanced web platform that empowers city dwellers with:
+- 🚦 **AI-Powered Route Prediction** — Avoids future traffic congestion using predictive analytics  
+- 🚨 **Real-Time Safety Check-Ins** — Sends emergency alerts and enables safe travel monitoring  
+- 🅿️ **Live Parking Availability** *(Planned)* — Simulates available parking spots (API/Data integration upcoming)  
+- 🤝 **Neighbourhood Events** — Discover or organize local community events like yoga, biking, or walking groups  
+- 🛠 **Civic Complaint Mapping** — Tag and report urban issues (like potholes) directly to authorities  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠 Tech Stack
 
-Follow these steps:
+| Layer       | Tech                        |
+|-------------|-----------------------------|
+| Frontend    | React.js, Tailwind CSS      |
+| Backend     | Supabase, RESTful APIs      |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🌍 Real-World Impact
 
-# Step 3: Install the necessary dependencies.
-npm i
+SMARTFOOT aims to:
+- Make commuting safer and smarter with AI-driven features  
+- Encourage night-time safety through real-time alerts  
+- Increase civic participation via intuitive issue reporting  
+- Foster local engagement through shared events and interest groups  
+- Support sustainable and efficient urban living  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🚀 Getting Started (for developers)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/940631bb-ea71-41d7-9207-0c86b22048df) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/VarunSugandhi/Smartfoot-Ignitex-BGS.git
+   cd Smartfoot-Ignitex-BGS
+   cd Smartfoot
+   npm install
+   npm run dev
