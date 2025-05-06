@@ -1,4 +1,4 @@
-# 🚶‍♂️ SMARTFOOT — AI-Powered Safe Urban Mobility & Community Platform
+# 🚶‍♂️ SMARTFOOT — Safe Urban Mobility & Community Platform
 
 > 🌆 A smart web solution to make urban commuting safer, smarter, and more connected.
 
@@ -6,7 +6,7 @@
 **BGSIT - IGNITEX 2025**  
 **Team Name**: Nether Watchers  
 **Track**: Smart Urban Living  
-**Project Title**: SMARTFOOT — AI-Powered Safe Urban Mobility & Community Platform
+**Project Title**: SMARTFOOT — Safe Urban Mobility & Community Platform
 
 ---
 
@@ -23,8 +23,8 @@ Urban commuters face several day-to-day challenges:
 
 ## 💡 Our Solution — SMARTFOOT
 
-**SMARTFOOT** is a free-to-use AI-enhanced web platform that empowers city dwellers with:
-- 🚦 **AI-Powered Route Prediction** — Avoids future traffic congestion using predictive analytics  
+**SMARTFOOT** is a free-to-use web platform that empowers city dwellers with:
+- 🚦 **Route Prediction** — Avoids future traffic congestion using predictive analytics  
 - 🚨 **Real-Time Safety Check-Ins** — Sends emergency alerts and enables safe travel monitoring  
 - 🅿️ **Live Parking Availability** *(Planned)* — Simulates available parking spots (API/Data integration upcoming)  
 - 🤝 **Neighbourhood Events** — Discover or organize local community events like yoga, biking, or walking groups  
@@ -44,7 +44,7 @@ Urban commuters face several day-to-day challenges:
 ## 🌍 Real-World Impact
 
 SMARTFOOT aims to:
-- Make commuting safer and smarter with AI-driven features  
+- Make commuting safer and smarter 
 - Encourage night-time safety through real-time alerts  
 - Increase civic participation via intuitive issue reporting  
 - Foster local engagement through shared events and interest groups  
