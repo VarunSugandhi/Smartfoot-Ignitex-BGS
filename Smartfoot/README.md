@@ -1,4 +1,4 @@
-# 🚶‍♂️ SMARTFOOT — AI-Powered Safe Urban Mobility & Community Platform
+# 🚶‍♂️ SMARTFOOT — Safe Urban Mobility & Community Platform
 
 > 🌆 A smart web solution to make urban commuting safer, smarter, and more connected.
 
